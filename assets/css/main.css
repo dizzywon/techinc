@@ -230,6 +230,6 @@ form .btn:hover{
     .full-height body,
     .full-height header,
     .full-height header .view {
-        height: 1020px; 
+        height: 100%; 
     } 
 }

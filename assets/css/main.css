@@ -37,7 +37,9 @@ ul a{
 .navbar{
 	box-shadow: none !important;
 }
-
+.navbar-brand{
+    font-weight: 400;
+}
 .top-nav-collapse {
     background: #333 !important;
 }
@@ -88,9 +90,13 @@ hr{
 #services, #portfolio, #team, #about, #contact{
     padding: 6rem 0;
 }
+#services h2, #portfolio h2, #team h2, #about h2, #contact h2{
+    font-weight: 400;
+}
 #portfolio .card .thumbnail{
     height: 400px;      
 }
+
 .card{
     box-shadow: none !important; 
 }

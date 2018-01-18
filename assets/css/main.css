@@ -17,6 +17,12 @@ a{
 h6 {
     line-height: 1.7 !important;
 }
+p{
+    font-size: 20px !important;
+}
+h3{
+    font-weight: 400 !important;
+}
 
 #intro {
     background: url('../../assets/img/img.jpg')no-repeat center center;
@@ -47,6 +53,7 @@ ul a{
 
 .navbar:not(.top-nav-collapse) {
     background: transparent !important;
+    padding: 15px !important;
 }
 .hm-black-strong .full-bg-img {
     opacity: 3 !important;
@@ -56,6 +63,9 @@ ul a{
     /*text-transform: uppercase !important;*/
 }
 
+.display-4{
+    font-size: 50px !important;
+}
 .display-4, .h1{
     text-transform: uppercase !important;
 }
@@ -207,10 +217,12 @@ hr{
 form .btn{
     background: #815530 !important;
     border: none !important;
+    box-shadow: none;
 }
 form .btn:hover{
     background: #815530 !important;
     border: none !important;
+    box-shadow: none;
 }
 
 @media (max-width: 450px) {
@@ -218,6 +230,10 @@ form .btn:hover{
         margin-right: 1rem;
         margin-left: 1rem;
     }
+
+    .display-4{
+    font-size: 30px !important;
+}
 }
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
